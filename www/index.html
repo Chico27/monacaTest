@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: content: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <script src="components/loader.js"></script>
+    <link rel="stylesheet" href="components/loader.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+    </script>
+</head>
+<body>
+	<br />
+  <div class="red">
+    Hello world.
+  </div>
+  <button onclick="popupAlert()">ハロー！</button>
+  <button onclick="vibrate()">バイブレーション</button>
+  <button onclick="timer(10)">10秒タイマー</button>
+  <button onclick="scanBarcode()">QRカメラ</button>
+  <div id="qr"></div>
+  <script src="script.js"></script>
+</body>
+</html>
